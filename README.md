@@ -128,9 +128,9 @@ cd ../
 ```
 Run the simulation
 ```
-.x86_64/special -nogui -c n_runs=<run_number> -c n_trials=<virtual_mouse_id> -c n_neuron=<deletion_type> Network_prelearning.hoc
+./x86_64/special -nogui -c n_runs=<run_number> -c n_trials=<virtual_mouse_id> -c n_neuron=<deletion_type> Network_prelearning.hoc
 ```
-e.g., .x86_64/special -nogui -c nruns=1-c ntrials=1 -c n_neuron=No_VIPcells Network_prelearning.hoc
+e.g., ./x86_64/special -nogui -c nruns=1-c ntrials=1 -c n_neuron=No_VIPcells Network_prelearning.hoc
 
 to replicate the results of the paper you need 5 runs/trial and 10 trials and all possible deletions (see below)
 
@@ -149,9 +149,9 @@ Output of the simulation is saved into Simulation_Results/prelearning
 ## LOCOMOTION SIMULATIONS
 Run the locomotion
 ```
-.x86_64/special -nogui -c nruns=<run_number> -c ntrials=<virtual_mouse_id> -c n_neuron=<deletion_type> Network_locomotion.hoc
+./x86_64/special -nogui -c nruns=<run_number> -c ntrials=<virtual_mouse_id> -c n_neuron=<deletion_type> Network_locomotion.hoc
 ```
-e.g., .x86_64/special -nogui -c nruns=1-c ntrials=1 -c n_neuron=No_VIPcells Network_locomotion.hoc
+e.g., ./x86_64/special -nogui -c nruns=1-c ntrials=1 -c n_neuron=No_VIPcells Network_locomotion.hoc
 
 Output of the simulation is saved into Simulation_Results/locomotion
 
@@ -204,9 +204,9 @@ cd ../
 ```
 
 ```
-.x86_64/special -nogui -c nruns=<run_number> -c ntrials=<virtual_mouse_id> -c n_neuron=<deletion_type> Network_reward.hoc
+./x86_64/special -nogui -c nruns=<run_number> -c ntrials=<virtual_mouse_id> -c n_neuron=<deletion_type> Network_reward.hoc
 ```
-e.g., .x86_64/special -nogui -c nruns=1-c ntrials=1 -c n_neuron=No_VIPcells Network_reward.hoc
+e.g., ./x86_64/special -nogui -c nruns=1-c ntrials=1 -c n_neuron=No_VIPcells Network_reward.hoc
 
 Output of the simulation is saved into Simulation_Results/reward
 
