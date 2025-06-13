@@ -100,7 +100,7 @@ cd make_inputs_linear_track
 
 In a command line execute
 ```
-python make_grid_like_inputs_speed_prelearning.py <run_number>
+python make_grid_like_inputs_prelearning.py <run_number>
 python make_grid_like_inputs_speed_mod.py <run_number>
 ```
 <run_number> is a specific run form one edge of the track to the other. To replicate the figures one needs 5 runs
@@ -114,7 +114,7 @@ python glim_v2_speed_mod.py <total_number_of_runs> <modulation_type>
 
 Then enter background_noise directory
 ```
-cd ../backgroun_noise
+cd ../background_noise
 ```
 create the background noise by executing 
 ```
