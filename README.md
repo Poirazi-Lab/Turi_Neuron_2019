@@ -209,7 +209,7 @@ cd ../
 ```
 ./x86_64/special -nogui -c nruns=<run_number> -c ntrials=<virtual_mouse_id> -c n_neuron=<deletion_type> Network_reward.hoc
 ```
-e.g., ./x86_64/special -nogui -c nruns=1-c ntrials=1 -c n_neuron=No_VIPcells Network_reward.hoc
+e.g., ./x86_64/special -nogui -c nruns=1-c ntrials=1 -c n_neuron=1 Network_reward.hoc
 
 The output of the simulation is saved into `Simulation_Results/reward`
 
